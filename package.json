@@ -1,0 +1,40 @@
+{
+  "name": "jsexpert",
+  "version": "1.0.0",
+  "description": "javascript exel application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhamal11/exel-project.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Zhamal Nurmanov <zhamal.nurmanov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhamal11/exel-project/issues"
+  },
+  "homepage": "https://github.com/zhamal11/exel-project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "node-sass": "^5.0.0",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0"
+  }
+}
